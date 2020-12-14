@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>JavaScript1(2)</title>
+</head>
+<body>
+  <script type="text/javascript">
+   var BMI;
+    BMI = function(weight,height) {
+      var index = (weight/(height*height))*10000;
+      if (index < 16)
+      console.log("Severe Thinness");
+      if (index >= 16 && index < 18.5)
+      console.log("Mild Thinness");
+      if (index >= 18.5 && index < 25)
+      console.log("Normal");
+      if (index >= 25 && index < 30)
+      console.log("Overweight");
+      if (index >= 30)
+      console.log("Obese");
+    }
+  </script>
+</body>
+</html>
